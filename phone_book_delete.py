@@ -3,7 +3,7 @@ import sqlite3 as sql
 global conn
 global cursor
 
-conn = sql.connect('data_users.db')
+conn = sql.connect('data_abonents.db')
 cursor = conn.cursor()
 
 def delete_abonent():
